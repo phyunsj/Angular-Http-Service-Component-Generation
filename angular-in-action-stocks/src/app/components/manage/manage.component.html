@@ -1,0 +1,38 @@
+<div class="demo-grid-1 mdl-grid">
+  <div class="mdl-cell mdl-cell--2-col"></div>
+
+  <div class="mdl-cell mdl-cell--4-col">
+    
+    <input class="mdl-textfield__input" type="text" placeholder="My Stock Portfolio" readonly/>
+    <table class="mdl-data-table mdl-data-table--selectable mdl-shadow--2dp" style="width: 100%;">
+      <tbody>
+        <ng-container *ngFor="let symbol of selectedSymbols">
+        <tr >
+          <td class="mdl-data-table__cell--non-numeric">{{symbol}}</td>
+          <td style="padding-top: 6px;">
+            <button class="mdl-button" (click)="remove(symbol)">Remove</button>
+          </td>
+        </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mdl-cell mdl-cell--4-col">
+    <input class="mdl-textfield__input" type="text" placeholder="Available Stock Symbols" readonly/>
+    <table class="mdl-data-table mdl-data-table--selectable mdl-shadow--2dp" style="width: 100%;">
+      <tbody>
+        <ng-container *ngFor="let symbol of unselectedSymbols">
+        <tr *ngIf="checkSymbols(symbol)"> 
+          <td class="mdl-data-table__cell--non-numeric">{{symbol}}</td>
+          <td style="padding-top: 6px;">
+            <button class="mdl-button" (click)="add(symbol)">Add</button>
+          </td>
+        </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mdl-cell mdl-cell--2-col"></div>
+</div>
