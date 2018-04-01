@@ -1,6 +1,6 @@
 ## egiForm
 
-egiHander/Form (appweb embedded cgi handler) to serve POST requests & generate responses. 
+myEgiForm (Appweb embedded cgi handler) to serve POST requests & generate responses. 
 
 EGI Form `myJsonEgi` is registerd as `json.egi` in simpleEgi.cpp
 
@@ -37,7 +37,7 @@ Auto-Generated type decalrations (class name, enum , error, action )
 #define PORTFOLIO_DELETE  405
 
 #include "Portfolio.h"
-...
+```
 
 
 ## JsonCpp
