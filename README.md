@@ -134,7 +134,7 @@ ngOnInit() {
     </table>
     ...
 ```
-
+![alt text](https://github.com/phyunsj/Angular-Http-Service-Component-Generation/blob/master/stock.tracker.manage.png "Stock Manage Page")
 ## Appweb 2 Webserver
 
 EGI handler manages POST requests for all requests from URI:`json.egi`. POST operations only. No JSON file is generated for this demo.
