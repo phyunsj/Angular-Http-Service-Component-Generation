@@ -2,9 +2,9 @@
 
 ### Generate Angular 5 Http Service Component out of sqlite3 table layout
 
-Source from **_Angular In Action_** Ch.2 Example https://github.com/angular-in-action/stocks (Credit to Author : **Jeremy Wilken**)
+Source from **_Angular In Action_**  Ch.2 Example https://github.com/angular-in-action/stocks (Credit to Author : **Jeremy Wilken**)
 
-**YES, I BOUGH THIS BOOK (_Angular In Action_ https://www.manning.com/books/angular-in-action).** I made minor changes in order to demonstrate Sqlite3 integration. 
+**YES, I PURCHASED THIS BOOK (_Angular In Action_ https://www.manning.com/books/angular-in-action).** I made minor changes in order to demonstrate sqlite3 integration. 
 
 
 ## Database 
