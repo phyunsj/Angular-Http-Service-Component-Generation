@@ -31,10 +31,10 @@ Source from **_Angular In Action_** Ch.2 Example https://github.com/angular-in-a
 
 - `Portfolio.cpp` 
 - `Portfolio.h`
-- `db_class_types.include` : **command enum, error code**
-- `db_switch_handler_pre.include` : **SQL INSERT/UPDATE/DELETE** STATEMENT
-- `db_switch_handler_post.include` : **SQL SELECT** STATEMENT
-- `db_switch_handler_column.include` : **Extract a value from each column**
+- `rest_api_class_types.include` : **command enum, error code**
+- `rest_api_switch_handler_pre.include` : **SQL INSERT/UPDATE/DELETE** STATEMENT
+- `rest_api_switch_handler_post.include` : **SQL SELECT** STATEMENT
+- `rest_api_switch_handler_column.include` : **Extract a value from each column**
 - `portfolio.service.ts`: **Angular Http Service** for Portfolio Table. POST for all INSERT/UPDATE/DELETE/SELECT operations.
 
 
