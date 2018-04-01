@@ -2,7 +2,7 @@
 
 myEgiForm (Appweb embedded cgi handler) to serve POST requests & generate responses. 
 
-EGI Form `myJsonEgi` is registerd as `json.egi` in simpleEgi.cpp
+EGI Form `myJsonEgi` is registerd as `json.egi` in `EgiSample/simpleEgi.cpp`
 
 - myEgiFrom.cpp/h
 
