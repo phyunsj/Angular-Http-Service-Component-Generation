@@ -1,3 +1,10 @@
+
+ 
+
+### MUST COPY THE WHOLE PROJECT FROM https://github.com/angular-in-action/stocks  AND OVERWRITE `src` folder.
+
+### `README.md` From https://github.com/angular-in-action/stocks   
+
 # Stocks
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
