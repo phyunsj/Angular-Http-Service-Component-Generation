@@ -1,6 +1,6 @@
 ## egiForm
 
-egiHander (appweb embedded cgi hanlder) to serve POST requests. 
+egiHander (appweb embedded cgi handler) to serve POST requests & generate responses. 
 
 ## JsonCpp
 
