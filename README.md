@@ -78,7 +78,7 @@ export class PortfolioService {
   }
 }
 ```
-## Change Log https://github.com/angular-in-action/stocks
+## Change Log on "angular-in-action/stocks" Project
 
 `.load([ ])` means read all entries from the table. 
 
