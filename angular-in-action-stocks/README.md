@@ -1,9 +1,9 @@
 
  
 
-### MUST COPY THE WHOLE PROJECT FROM https://github.com/angular-in-action/stocks  AND OVERWRITE `src` folder.
+##### MUST COPY THE WHOLE PROJECT FROM https://github.com/angular-in-action/stocks AND OVERWRITE `src` folder.
 
-### `README.md` From https://github.com/angular-in-action/stocks   
+##### `README.md` From https://github.com/angular-in-action/stocks   
 
 # Stocks
 
