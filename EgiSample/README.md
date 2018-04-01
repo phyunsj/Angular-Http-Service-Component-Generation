@@ -1,7 +1,7 @@
 # EgiSample 
 
 - Updated version from appweb-2.4.4/samples/C++/simpleEgi
-- simpleEgi.cpp
+- simpleEgi.cpp  `json.egi` registration. myJsonEgi class from /lib/egiForm.
 ```
         //
 	//	Configure the server with the configuration directive file
