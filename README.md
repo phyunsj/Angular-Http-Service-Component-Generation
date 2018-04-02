@@ -2,7 +2,7 @@
 
 ### Generate Angular 5 Http Service Component out of sqlite3 table layout
 
-Angular Project from **_Angular In Action_**  Ch.2 Example https://github.com/angular-in-action/stocks (Credit to Author : **Jeremy Wilken**)
+Angular Project is from **_Angular In Action_**  Ch.2 Example https://github.com/angular-in-action/stocks (Credit to Author : **Jeremy Wilken**)
 
 **YES, I PURCHASED THIS BOOK (_Angular In Action_ https://www.manning.com/books/angular-in-action).** I made minor changes in order to demonstrate sqlite3 integration (angular-in-action-stock folder. src/ only). 
 
@@ -10,7 +10,7 @@ Angular Project from **_Angular In Action_**  Ch.2 Example https://github.com/an
 
 - EgiSample : Appweb 2 start-up program. public/ has a production version of stock project.
 - angular-in-action-stock : src/ folder only. 
-- codegen : python script to read database.xlsx and generate cpp/h/ts.
+- codegen : python script to read database.xlsx and generate *.cpp/*.h/*.ts.
 - lib : EgiForm, jsoncpp, sqlite3 - linked to EgiSample/simgpleEgi application. 
 - test : SQL test scripts.
 
