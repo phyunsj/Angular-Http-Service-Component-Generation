@@ -83,7 +83,8 @@ export class PortfolioService {
 `.load([ ])` means read all entries from the table. 
 
 `src/components/dashboard/dashboard.component.ts` : `IntervalObservable` 
-Read all records(A) from PORTFOLIO table first and Read stock symbols(out of A) from STOCK table.  
+
+Read all records(selected stock symbols) from PORTFOLIO table first and Read stock symbols(selected stock symbols only) from STOCK table.  
 ```
 constructor(private selectedStock : PortfolioService, private unselectedStock  : StockService ) {
    ...
@@ -99,6 +100,7 @@ ngOnInit() {
 ```
 
 `src/components/dashboard/manage.component.ts` : `forkJoin` 
+
 Read all records from PORTFOLIO table and STOCK table.
 ```
 constructor(private selectedStock : PortfolioService, private unselectedStock  : StockService ) {
@@ -120,6 +122,7 @@ ngOnInit() {
 }
 ```
 `src/components/dashboard/manage.component.html` : combine `*ngFor` and `*ngIf`. 
+
 Display non-selected stock symbols. 
 ```
     ...
