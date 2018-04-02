@@ -82,7 +82,8 @@ export class PortfolioService {
 
 `.load([ ])` means read all entries from the table. 
 
-`src/components/dashboard/dashboard.component.ts` : `IntervalObservable`  Read all records(A) from PORTFOLIO table and Read stock symbols(A) from STOCK table.  
+`src/components/dashboard/dashboard.component.ts` : `IntervalObservable` 
+Read all records(A) from PORTFOLIO table first and Read stock symbols(out of A) from STOCK table.  
 ```
 constructor(private selectedStock : PortfolioService, private unselectedStock  : StockService ) {
    ...
@@ -97,7 +98,8 @@ ngOnInit() {
 }
 ```
 
-`src/components/dashboard/manage.component.ts` : `forkJoin` Read all records from PORTFOLIO table and STOCK table.
+`src/components/dashboard/manage.component.ts` : `forkJoin` 
+Read all records from PORTFOLIO table and STOCK table.
 ```
 constructor(private selectedStock : PortfolioService, private unselectedStock  : StockService ) {
    ...
@@ -117,7 +119,8 @@ ngOnInit() {
     });
 }
 ```
-`src/components/dashboard/manage.component.html` : combine `*ngFor` and `*ngIf`. Display non-selected stock symbols. 
+`src/components/dashboard/manage.component.html` : combine `*ngFor` and `*ngIf`. 
+Display non-selected stock symbols. 
 ```
     ...
     <table class="mdl-data-table mdl-data-table--selectable mdl-shadow--2dp" style="width: 100%;">
@@ -135,6 +138,7 @@ ngOnInit() {
     ...
 ```
 ![alt text](https://github.com/phyunsj/Angular-Http-Service-Component-Generation/blob/master/stock.tracker.manage.png "Stock Manage Page")
+
 ## Appweb 2 Webserver
 
 EGI handler manages POST requests for all requests from URI:`json.egi`. POST operations only. No JSON file is generated for this demo.
