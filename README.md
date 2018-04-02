@@ -10,7 +10,7 @@ Angular Project is from **_Angular In Action_**  Ch.2 Example https://github.com
 
 - EgiSample : Appweb 2 start-up program. public/ has a production version of stock project.
 - angular-in-action-stock : src/ folder only. 
-- codegen : python script to read database.xlsx and generate *.cpp/*.h/*.ts.
+- codegen : python script to read database.xlsx and generate `*.cpp`/`*.h`/`*.ts`.
 - lib : EgiForm, jsoncpp, sqlite3 - linked to EgiSample/simgpleEgi application. 
 - test : SQL test scripts.
 
