@@ -123,7 +123,7 @@ ngOnInit() {
 ```
 `src/components/dashboard/manage.component.html` : combine `*ngFor` and `*ngIf`. 
 
-Display non-selected stock symbols. 
+Display non-selected stock symbols on available stock table. 
 ```
     ...
     <table class="mdl-data-table mdl-data-table--selectable mdl-shadow--2dp" style="width: 100%;">
