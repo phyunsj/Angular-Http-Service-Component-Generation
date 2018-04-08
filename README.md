@@ -147,7 +147,7 @@ Display non-selected stock symbols on available stock table.
     </table>
     ...
 ```
-![alt text](https://github.com/phyunsj/angular-service-component-generation/blob/master/stock.tracker.manage.png "Stock Manage Page")
+![alt text](https://github.com/phyunsj/angular-service-component-generation/blob/master/stock-management.gif "Stock Manage Page")
 
 ## Appweb 2 Webserver
 
